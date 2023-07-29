@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56589377}
   - component: {fileID: 56589378}
+  - component: {fileID: 56589379}
   m_Layer: 0
   m_Name: MercurGunes
   m_TagString: Untagged
@@ -163,12 +164,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56589375}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20fe56ce7bdd1034e8dd3aab6585b7fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &56589379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56589375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &204525061
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 295423270}
   - component: {fileID: 295423271}
+  - component: {fileID: 295423272}
   m_Layer: 0
   m_Name: MarsGunes
   m_TagString: Untagged
@@ -315,12 +330,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295423268}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 673e80bd07021f944b625f68c8edfeeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &295423272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295423268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.8
 --- !u!1 &457660826
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599892061}
   - component: {fileID: 599892062}
+  - component: {fileID: 599892063}
   m_Layer: 0
   m_Name: JupiterGunes
   m_TagString: Untagged
@@ -599,12 +628,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599892059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4382b5c13eda7334dad551578a51ecd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &599892063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599892059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,7 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vect3: {x: 0, y: 0, z: 0}
+  speed: 0
 --- !u!135 &852509943
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1396,6 +1438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1622030842}
   - component: {fileID: 1622030843}
+  - component: {fileID: 1622030844}
   m_Layer: 0
   m_Name: DunyaGunes
   m_TagString: Untagged
@@ -1426,12 +1469,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622030841}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e4285f1b0ccbe94c95e6b28799eeab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &1622030844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622030841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!1 &1663991736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,6 +1617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1839535449}
   - component: {fileID: 1839535450}
+  - component: {fileID: 1839535451}
   m_Layer: 0
   m_Name: SaturnGunes
   m_TagString: Untagged
@@ -1591,12 +1648,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839535448}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7620c57bf1af58c47917e0e23a735a60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &1839535451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839535448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.4
 --- !u!1 &1900966402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,6 +1677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900966403}
   - component: {fileID: 1900966404}
+  - component: {fileID: 1900966405}
   m_Layer: 0
   m_Name: UranusGunes
   m_TagString: Untagged
@@ -1637,12 +1708,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900966402}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c4948602557d2a40bb1b1da77233e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &1900966405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900966402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.3
 --- !u!1 &2050798643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,6 +1737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2050798645}
   - component: {fileID: 2050798646}
+  - component: {fileID: 2050798647}
   m_Layer: 0
   m_Name: VenusGunes
   m_TagString: Untagged
@@ -1683,12 +1768,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050798643}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34d09ac09479af147bc9c7ce51ff68c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vect3: {x: 0, y: 0, z: 0}
+--- !u!114 &2050798647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050798643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.16
 --- !u!1 &2090650773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090650774}
   - component: {fileID: 2090650775}
+  - component: {fileID: 2090650776}
   m_Layer: 0
   m_Name: NeptunGunes
   m_TagString: Untagged
@@ -1729,12 +1828,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090650773}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44412e80edaaa8e4ba093c4ce4fe637d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vect3: {x: 0, y: 0, z: 0}
+  speed: 4
+--- !u!114 &2090650776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090650773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4455548b626cc40af57ca1317691a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
 --- !u!1 &2099177735
 GameObject:
   m_ObjectHideFlags: 0
